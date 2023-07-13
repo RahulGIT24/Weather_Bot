@@ -24,9 +24,6 @@ def fetchWeather(city):
     except:
         return "An unexpected error occured or Check city name and your internet connection"
 
-# query = fetchWeather('Delhi')
-# print(query['temp'])
-
 # Creating instance of bot
 bot = telebot.TeleBot(BotToken)
 
